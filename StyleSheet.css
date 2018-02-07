@@ -29,7 +29,8 @@ h1.title {
     font-size: small;
 }
 p.link {
-    text-align:end;
+    margin-left:50px;
+    margin-right:50px;
     text-align:center;
 }
 #header {
@@ -79,4 +80,3 @@ a{
         Width: 120%;
     }
 }
-/* デバイスの横幅が320px以下の場合 */
