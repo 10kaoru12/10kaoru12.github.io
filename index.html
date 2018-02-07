@@ -1,1 +1,79 @@
-Hello world
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- jQuery.jsの読み込み -->
+    <script type="text/javascript" src="JavaScript.js"></script>
+
+    <!-- スムーズスクロール部分の記述 -->
+    <script>
+$(function(){
+   // #で始まるアンカーをクリックした場合に処理
+   $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒
+      // アンカーの値取得
+      var href= $(this).attr("href");
+      // 移動先を取得
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      var position = target.offset().top;
+      // スムーススクロール
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+    </script>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="StyleSheet.css">
+    <title>ProfileSite</title>
+</head>
+<body>
+    <div id="header">
+        <ul>
+            <li style="font-family:Bahnschrift"><a href="#about">ABOUT</a></li>
+            <li style="font-family:Bahnschrift"><a href="#education">EDUCATION</a></li>
+            <li style="font-family:Bahnschrift"><a href="#activity">ACTIVITY</a></li>
+            <li style="font-family:Bahnschrift"><a href="#link">LINK</a></li>
+        </ul>
+    </div>
+    <h1 style="font-family:Castellar" class="title">   Who's <br /> Kaoru Ishizawa ?   </h1>
+    <h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" id="about">ABOUT</h2>
+    <p style="font-family:serif" class="about p">
+        - Hi My name's  Kaoru Ishizawa.<br />
+        I'm from Kanagawa , Japan. Born and raised.<br />
+        I live in Kanagawa.<br />
+        I'm eighteen years old.<br />
+        My favarite programming language is C++.<br />
+        I can use C , C++ , HTML , CSS.<br />
+        I have IP , SG , FE.<br />
+        I'm investing in virtual currency,stock,World economy IF.<br />
+    </p>
+    <h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" id="education">EDUCATION</h2>
+    <p style="font-family:serif" class="education p">
+        - March 2018 / Finished Kanagawa Prefectural Kawasaki High School of Science and Technology.<br />
+        - April 2018 / Entered Tokyo Denki University , Department of Infomation Systems and Multimedia Design.<br />
+        - ...<br />
+    </p>
+    <h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" id="activity">ACTIVITY</h2>
+    <p style="font-family:serif" class="education p">
+        -2015<br />
+        Best Award High school software contest of Tokyo University of Information Sciences.<br />
+        <br />
+        -2016<br />
+        gain a Information Technology Passport.<br />
+        gain a Information Security Management.<br />
+        <br />
+        -2017<br />
+        gain a Fundamental Information Technology Engineer.<br />
+    </p>
+    <h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" id="link">LINK</h2>
+    <p style="font-family:serif" class="link p">
+        <a href="https://twitter.com/10kaoru12"><img src="Twitter.png" width="128" height="128" style="margin: 0px 100px" id="img" /></a>
+        <a href="https://github.com/10kaoru12"><img src="Github.png" width="128" height="128" style="margin: 0px 100px" id="img" /></a>
+        <a href="https://www.facebook.com/kaoru.ishizawa.90"><img src="Facebook.png" width="128" height="128" style="margin: 0px 100px" id="img" /></a>
+    </p>
+    <div id="footer" style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+        Copyright © 2018 Kaoru Ishizawa All Rights Reserved.
+    </div>
+</body>
+</html>
