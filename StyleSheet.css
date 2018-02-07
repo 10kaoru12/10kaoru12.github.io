@@ -37,14 +37,15 @@ p.link {
     position: fixed; /* ヘッダーの固定 */
     top: 0px; /* 位置(上0px) */
     left: 0px; /* 位置(右0px) */
+    right: 0px;
     width: 100%; /* 横幅100%　*/
-    height: 100px; /* 縦幅140px */
+    height: 120px; /* 縦幅140px */
     background-color: #333333;
     padding: 0px 0px 0px 0px;
     text-align: right;
     position: fixed;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 li{
     display:inline;
