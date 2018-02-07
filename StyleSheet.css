@@ -4,11 +4,10 @@ html{
     padding:0px 0px 0px 0px;
 }
 body {
-    font-size: 200%;
-    line-height: 3;
+    font-size: 150%;
+    line-height: 2;
     color: #333333;
     margin-left: 50px;
-    text-size-adjust:auto;
 }
 p.about{
     text-align:left;
@@ -17,15 +16,17 @@ p.about{
 p.education{
     line-height:1.5;
 }
-h1.title{
-    text-align:center;
-    padding:130px;
+h1.title {
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    padding: 130px;
+    font-size:100px;
 }
 #footer {
     padding: 20px 0px 20px 0px;
     border-top: 1px black solid;
     text-align: left;
-    font-size:small;
+    font-size: small;
 }
 p.link {
     text-align:end;
@@ -54,7 +55,4 @@ li{
 a{
     text-decoration:none;
     color:white;
-}
-p{
-    font-size:large;
 }
