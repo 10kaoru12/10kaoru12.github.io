@@ -1,116 +1,144 @@
+<!--
+
+
+
+　 　　　＿＿＿_
+　　　／　　 　 　＼ （ ;;;;(
+　 ／　　＿ノ　 ヽ__＼) ;;;;)
+／ 　　 （─） 　（─ /;;／　
+|　 　　 　 （__人__） l;;,´　
+/　　　 　 ∩ ノ)━・'／　
+(　 ＼　／ ＿ノ´.|　 |　
+.＼　 " 　／＿＿|　 |
+　　＼ ／＿＿＿
+
+
+
+-->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    
-    <!-- jQuery.jsの読み込み -->
-    <script type="text/javascript" src="JavaScript.js"></script>
-
-    <!-- スムーズスクロール部分の記述 -->
-    <script>
-        $(function () {
-            // #で始まるアンカーをクリックした場合に処理
-            $('a[href^=#]').click(function () {
-                // スクロールの速度
-                var speed = 400; // ミリ秒
-                // アンカーの値取得
-                var href = $(this).attr("href");
-                // 移動先を取得
-                var target = $(href == "#" || href == "" ? 'html' : href);
-                // 移動先を数値で取得
-                var position = target.offset().top;
-                // スムーススクロール
-                $('body,html').animate({ scrollTop: position }, speed, 'swing');
-                return false;
-            });
-        });
-    </script>
-    <meta charset="utf-8" />
     <link rel="stylesheet" href="StyleSheet.css">
-    <title>WHO'S KAORU ISHIZAWA ?</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <meta charset="utf-8"/>
+    <meta name="discription" content="石澤芳瑠の自己紹介ページ">
+    <meta name="author" content="石澤芳瑠,Ishizawa Kaoru,Kaoru Ishizawa">
+    <meta name="keywords" content="自己紹介,石澤芳瑠">
+    <title>about me</title>
+    <!-Global site tag (gtag.js) Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113804163-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-113804163-1');
     </script>
 </head>
 <body>
-    <div id="header">
-        <ul>
-            <li style="font-family:Bahnschrift"><a href="#about">ABOUT</a></li>
-            <li style="font-family:Bahnschrift"><a href="#education">EDUCATION</a></li>
-            <li style="font-family:Bahnschrift"><a href="#activity">ACTIVITY</a></li>
-            <li style="font-family:Bahnschrift"><a href="#link">LINK</a></li>
-        </ul>
-    </div>
-    <h1 style="font-family:Castellar" class="title">WHO'S <br /> KAORU ISHIZAWA ?</h1>
-    <h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" id="about">ABOUT</h2>
-    <p style="font-family:serif" class="about p">
-        - Hi My name's  Kaoru Ishizawa.<br />
-        <br />
-        - I'm from Kanagawa , Japan. Born and raised.<br />
-        <br />
-        - I live in Kanagawa.<br />
-        <br />
-        - I'm eighteen years old.<br />
-        <br />
-        - I like Hyperart Thomasson.<br />
-        <br />
-        - My favorite programming language is C++.<br />
-        <br />
-        - I can use C , C++ , HTML , CSS , Python , Git.<br />
-        <br />
-        - I have IP , SG , FE.<br />
-        <br />
-        - I studying web scraping by python etc...<br />
-        <br />
-        - I'm investing in virtual currency,stock,World economy IF.<br />
-        <br />
+<main>
+    <img src="avatar.jpg" class="avatar">
+    <h1>KAORU ISHIZAWA</h1>
+    <h2>STUDENT & ENGINEER</h2>
+</main>
+<hr>
+<section>
+    <h2>ABOUT ME</h2>
+    <p class="about">
+        Kaoru Ishizawa<br>
+        <br>
+        1999 / 10 / 12 <br>
+        <br>
+        Kanagawa , Japan.<br>
+        <br>
+        Photograhy<br>
+        <br>
+        Hyperart Thomasson.<br>
+        <br>
+        World Economy IF<br>
+        <br>
     </p>
-    <h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" id="education">EDUCATION</h2>
-    <p style="font-family:serif" class="education p">
-        - March 2012 / Finished Kawasaki Mukaigaoka Elementary School.<br />
-        <br />
-        - March 2015 / Finished Kawasaki Inukura Junior High School.<br />
-        <br />
-        - March 2018 / Finished Kanagawa Prefectural Kawasaki High School of Science and Technology.<br />
-        <br />
-        - April 2018 / Entered Tokyo Denki University , Department of Infomation Systems and Multimedia Design.<br />
-        <br />
-        - ...<br />
-        <br />
+<hr>
+<section>
+    <h2>PROGRAMMING</h2>
+    <p class="programming">
+        C, C++ (Well)<br>
+        <br>
+        HTML, CSS, Python (Normal)<br>
+        <br>
+        Javascript, WebGL, OpenCV, Web Scraping, AP (leaning)<br>
+        <br>
+        Information Technology Passport Examination<br>
+        <br>
+        Information Security Management Examination<br>
+        <br>
+        Fundamental Information Technology Engineer Examination<br>
+        <br>
     </p>
-    <h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" id="activity">ACTIVITY</h2>
-    <p style="font-family:serif" class="education p">
-        -2015<br />
-        ・ Work as an intern in JISC SOFT Co.,Ltd.<br />
-        ・Best Award High school software contest of Tokyo University of Information Sciences.<br />
-        <br />
-        -2016<br />
-        ・ Gain a Information Technology Passport.<br />
-        ・ Gain a Information Security Management.<br />
-        <br />
-        -2017<br />
-        ・ Gain a Fundamental Information Technology Engineer.<br />
-        <br />
-        -2018<br />
-        ・ Joined the Cpaw.<br />
-        ・ Work as an intern in SAKURA Internet Inc.<br />
-        ・ Make this Homepage.<br />
-        ・ Work as an intern in MESON　Inc.<br />
+</section>
+</section>
+<hr>
+<section>
+    <h2>EDUCATION</h2>
+    <p class="education">
+        <strong>March 2012</strong><br>
+        Kawasaki Mukaigaoka Elementary School.<br>
+        <br>
+        <strong>March 2015</strong><br>
+        Kawasaki Inukura Junior High School.<br>
+        <br>
+        <strong>March 2018</strong><br>
+        Kanagawa Prefectural Kawasaki High School of Science and Technology.<br>
+        <br>
+        <strong>April 2018</strong><br>
+        Tokyo Denki University , Department of Infomation Systems and Multimedia Design.<br>
+        <br>
     </p>
-    <h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" id="link">LINK</h2>
-    <p style="font-family:serif" class="link p">
-        <a href="https://twitter.com/10kaoru12"><img src="Twitter.png" width="128" height="128" style="margin: 0px 100px" class="img" /></a>
-        <a href="https://github.com/10kaoru12"><img src="Github.png" width="128" height="128" style="margin: 0px 100px" class="img" /></a>
-        <a href="https://www.facebook.com/kaoru.ishizawa.90"><img src="Facebook.png" width="128" height="128" style="margin: 0px 100px" class="img" /></a>
-        <a href="https://www.cpaw.site/index.html"><img src="cpaw.png" width="256" height="128" style="margin: 0px 100px" class="img" /></a>
+</section>
+<hr>
+<section>
+    <h2>ACTIVITY</h2>
+    <p class="activity">
+        <strong>-2015</strong><br>
+        Work as an intern in JISC SOFT Co.,Ltd.<br>
+        <br>
+        Best Award High school software contest of Tokyo University of Information Sciences.<br>
+        <br>
+        <strong>-2016</strong><br>
+        Gain a Information Technology Passport.<br>
+        <br>
+        Gain a Information Security Management.<br>
+        <br>
+        <strong>-2017</strong><br>
+        Gain a Fundamental Information Technology Engineer.<br>
+        <br>
+        <strong>-2018</strong><br>
+        Joined the Cpaw.<br>
+        <br>
+        Work as an intern in SAKURA Internet Inc.<br>
+        <br>
+        Work as an intern in MESON, Inc.<br>
+        <br>
+        Work as an intern in Research Institute for Computational Science Co. Ltd.<br>
+        <br>
     </p>
-    <div id="footer" style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+</section>
+<hr>
+<section>
+    <h2>LINK</h2>
+    <p>
+        <a href="https://twitter.com/10kaoru12"><img src="Twitter.png"style="margin: 0px 100px" class="twitter_img"/></a>
+        <a href="https://github.com/10kaoru12"><img src="Github.png" width="128" height="128" style="margin: 0px 100px" class="github_img"/></a>
+        <a href="https://www.facebook.com/kaoru.ishizawa.90"><img src="Facebook.png" width="128" height="128" style="margin: 0px 100px" class="facebook_img"/></a>
+    </p>
+</section>
+<footer>
+    <small>
         Copyright © 2018 Kaoru Ishizawa All Rights Reserved.
-    </div>
+    </small>
+</footer>
 </body>
 </html>
