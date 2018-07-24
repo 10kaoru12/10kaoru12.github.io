@@ -2,43 +2,19 @@
 {
     font-family: Helvetica;
     line-height: 180%;
+    background-color: #F4F5F7;
+    color: #444444;
 }
-
-body
-{
-    margin: 0;
-}
-
-div
-{
-    color: #f8f8ff;
-    /*
-    background: #EECDA3;  !* fallback for old browsers *!
-    background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  !* Chrome 10-25, Safari 5.1-6 *!
-    background: linear-gradient(to right, #EF629F, #EECDA3); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!
-    */
-    background-image: url("AdobeStock_81042545.jpeg");
-
-}
-
-hr
-{
-    border-top: 1px dashed #bbb;
-    border-bottom: 1px dashed #fff;
-}
-
 
 img.avatar
 {
     border-radius: 100%;
-    padding-top: 50px;
     width: 500px ; height: 500px
-
 }
 
 main
 {
-    color: #f8f8ff;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -72,7 +48,7 @@ h2
 {
     font-size: 30px;
     text-align: center;
-    line-height: 250%;
+    line-height: 300%;
 }
 
 img
