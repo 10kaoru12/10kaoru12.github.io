@@ -1,10 +1,18 @@
 *
 {
-    font-family: Helvetica;
+    font-family: Papyrus;
     line-height: 180%;
     background-color: #F4F5F7;
     color: #444444;
 }
+
+/*nav
+{
+    padding: 20px;
+    word-spacing: 10px;
+    font-size: 25px;
+    text-align: right;
+}*/
 
 img.avatar
 {
@@ -14,7 +22,6 @@ img.avatar
 
 main
 {
-    margin-top: 20px;
     text-align: center;
 }
 
@@ -40,12 +47,14 @@ p
 
 h1
 {
+    font-family: Noteworthy;
     font-size: 50px;
     line-height: 200%;
 }
 
 h2
 {
+    font-family: Noteworthy;
     font-size: 30px;
     text-align: center;
     line-height: 300%;
