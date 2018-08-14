@@ -18,12 +18,12 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <link rel="stylesheet" href="StyleSheet.css">
+        <link rel="stylesheet" href="stylesheet.css">
         <meta charset="utf-8"/>
         <meta name="discription" content="石澤芳瑠の自己紹介ページ">
         <meta name="author" content="石澤芳瑠,Ishizawa Kaoru,Kaoru Ishizawa">
         <meta name="keywords" content="自己紹介,石澤芳瑠">
-        <title>about me</title>
+        <title>About Me</title>
         <!-Global site tag (gtag.js) Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113804163-1"></script>
         <script>
@@ -37,14 +37,22 @@
 
             gtag('config', 'UA-113804163-1');
         </script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.slider').bxSlider({
+                    auto: true,
+                    pause: 5000,
+                });
+            });
+        </script>
     </head>
     <body>
-<!--        <nav>
-            <a>ABOUT</a>
-            <a>GALLERY</a>
-        </nav>-->
         <main>
-            <img src="avatar.jpg" class="avatar">
+            <img src="image/avatar.jpg" class="avatar">
             <h1>KAORU ISHIZAWA</h1>
             <h2>STUDENT & ENGINEER</h2>
         </main>
@@ -134,13 +142,36 @@
         </section>
         <hr>
         <section>
+            <h2>GALLERY</h2>
+            <div class="slider">
+                <img src="image/1.jpg" alt="">
+                <img src="image/2.jpg" alt="">
+                <img src="image/3.jpg" alt="">
+                <img src="image/4.jpg" alt="">
+                <img src="image/5.jpg" alt="">
+                <img src="image/6.jpg" alt="">
+                <img src="image/7.jpg" alt="">
+                <img src="image/8.jpg" alt="">
+                <img src="image/9.jpg" alt="">
+                <img src="image/10.jpg" alt="">
+                <img src="image/11.jpg" alt="">
+                <img src="image/12.jpg" alt="">
+                <img src="image/13.jpg" alt="">
+                <img src="image/14.jpg" alt="">
+                <img src="image/15.jpg" alt="">
+                <img src="image/16.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section>
             <h2>LINK</h2>
             <p>
-                <a href="https://twitter.com/10kaoru12"><img src="Twitter.png"style="margin: 0px 100px" class="twitter_img"/></a>
-                <a href="https://github.com/10kaoru12"><img src="Github.png" width="128" height="128" style="margin: 0px 100px" class="github_img"/></a>
-                <a href="https://www.facebook.com/kaoru.ishizawa.90"><img src="Facebook.png" width="128" height="128" style="margin: 0px 100px" class="facebook_img"/></a>
+                <a href="https://twitter.com/10kaoru12"><img src="image/Twitter.png" style="margin: 0px 100px" class="linkimg"/></a>
+                <a href="https://github.com/10kaoru12"><img src="image/Github.png" width="128" height="128" style="margin: 0px 100px" class="linkimg"/></a>
+                <a href="https://www.facebook.com/kaoru.ishizawa.90"><img src="image/Facebook.png" width="128" height="128" style="margin: 0px 100px" class="linkimg"/></a>
             </p>
         </section>
+        <hr>
         <footer>
             <small>
                 Copyright © 2018 Kaoru Ishizawa All Rights Reserved.
