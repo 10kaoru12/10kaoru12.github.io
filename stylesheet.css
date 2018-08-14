@@ -15,6 +15,13 @@ nav
     text-align: center;
 }
 
+img.avator
+{
+    text-align: center;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+
 img
 {
     border-radius: 100%;
