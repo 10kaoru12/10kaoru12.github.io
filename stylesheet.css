@@ -15,10 +15,10 @@ nav
     text-align: center;
 }
 
-img.avatar
+img
 {
     border-radius: 100%;
-    width: 500px ; height: 500px
+    width: 100px ; height: 100px
 }
 
 main
