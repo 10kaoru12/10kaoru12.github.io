@@ -1,6 +1,6 @@
 *
 {
-    font-family: Papyrus;
+    font-family: "Montserrat";
     line-height: 180%;
     background-color: #F4F5F7;
     color: #444444;
@@ -47,14 +47,14 @@ p
 
 h1
 {
-    font-family: "Noto Sans JP";
+    font-family: "Montserrat";
     font-size: 50px;
     line-height: 200%;
 }
 
 h2
 {
-    font-family: "Noto San";
+    font-family: "Rockwell";
     font-size: 30px;
     text-align: center;
     line-height: 300%;
