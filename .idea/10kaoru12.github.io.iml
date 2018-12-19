@@ -9,5 +9,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jquery-1.10.0" level="application" />
+    <orderEntry type="library" name="jquery-2.2.0" level="application" />
+    <orderEntry type="library" name="viewer" level="application" />
   </component>
 </module>

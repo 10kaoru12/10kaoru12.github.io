@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
+        <style>
+            ul { list-style-type: none; }
+            li { display: inline-block; }
+        </style>
         <link rel="stylesheet" href="stylesheet.css">
+        <link rel="script" href="script.js">
         <meta charset="utf-8"/>
         <meta name="discription" content="石澤芳瑠の自己紹介ページ">
         <meta name="author" content="石澤芳瑠,Ishizawa Kaoru,Kaoru Ishizawa">
@@ -23,11 +28,13 @@
         <link rel="stylesheet" href="node_modules/fakeloader/fakeLoader.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="node_modules/fakeloader/fakeLoader.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.1/viewer.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.1/viewer.min.js"></script>
     </head>
     <body>
     <div id="fakeloader" class="fakeLoader"></div>
         <main>
-            <img src="image/avatar.jpg" class="avatar">
+            <img src="image/avatar.jpg" class="avatar" alt="avatar">
             <h1>KAORU ISHIZAWA</h1>
             <h2>STUDENT & ENGINEER</h2>
         </main>
@@ -98,7 +105,7 @@
                 <br>
                 Work as an intern in JISC SOFT Co.,Ltd.<br>
                 <br>
-                Best Award High school software contest of Tokyo University of Information Sciences.<br>
+                <a href="http://www.tuis.ac.jp/events/17_56cfa4d79475e/">Best Award High school software contest of Tokyo University of Information Sciences.</a><br>
                 <br>
                 <strong>-2016</strong><br>
                 Gain a Information Technology Passport.<br>
@@ -109,41 +116,68 @@
                 Gain a Fundamental Information Technology Engineer.<br>
                 <br>
                 <strong>-2018</strong><br>
-                Joined the Cpaw.<br>
+                Joined the <a href="https://www.cpaw.site/">Cpaw.</a><br>
                 <br>
-                Work as an intern in SAKURA Internet Inc.<br>
+                Work as an intern in <a href="https://www.sakura.ad.jp/">SAKURA Internet Inc.</a><br>
                 <br>
-                Work as an intern in MESON, Inc.<br>
+                Work as an intern in <a href="https://www.meson.tokyo/">MESON, Inc.</a><br>
                 <br>
-                Work as an part-time in Research Institute for Computational Science Co, Ltd.<br>
+                Work as an part-time in <a href="https://www.ricos.co.jp/">Research Institute for Computational Science Co, Ltd.</a><br>
                 <br>
-                IT hero Co.,Ltd, CEO and representative director.<br>
+                <a href="https://it-hero.jp/">IT hero Co.,Ltd</a> CEO and representative director.<br>
                 <br>
                 Gain a Applied Information Technology Engineer.<br>
                 <br>
                 Launch the LT circle of weav.<br>
                 <br>
+                In development the <a href="https://10kaoru12.github.io/EleCal/">Elecal.</a><br>
+                <br>
+                <strong>-2019</strong><br>
+                etc...<br>
+                <br>
+
             </p>
         </section>
-
         <hr>
+        <section>
+            <h2>LIBRARY</h2>
+            <ul id="images">
+                <li><img src="library/IMG_0099.jpg" alt="image" class="library"></li>
+				<li><img src="library/IMG_0153.jpg" alt="image" class="library"></li>
+                <li><img src="library/IMG_0169.jpg" alt="image" class="library"></li>
+                <li><img src="library/IMG_0860.jpg" alt="image" class="library"></li>
+                <li><img src="library/IMG_0902.jpeg" alt="image" class="library"></li>
+                <li><img src="library/IMG_0938.jpeg" alt="image" class="library"></li>
+                <li><img src="library/IMG_0944.jpeg" alt="image" class="library"></li>
+                <li><img src="library/IMG_0945.jpeg" alt="image" class="library"></li>
+                <li><img src="library/IMG_0966.jpeg" alt="image" class="library"></li>
+                <li><img src="library/IMG_0967.jpeg" alt="image" class="library"></li>
+                <li><img src="library/IMG_0972.jpeg" alt="image" class="library"></li>
+                <li><img src="library/IMG_0985.jpeg" alt="image" class="library"></li>
+                <li><img src="library/IMG_1008.jpeg" alt="image" class="library"></li>
+            </ul>
+            <br>
+        </section>
+    <hr>
         <section>
             <h2>LINK</h2>
             <p>
-                <a href="https://twitter.com/10kaoru12"><img src="image/Twitter.jpg" style="margin: 0px 100px"></a>
-                <a href="https://www.facebook.com/kaoru.ishizawa.90"><img src="image/Facebook.png" style="margin: 0px 100px"></a>
-                <a href="https://qiita.com/10kaoru12"><img src="image/Qiita.png" style="margin: 0px 100px"></a>
-                <a href="http://amzn.asia/ikCOY58"><img src="image/Amazon.jpg" style="margin: 0px 100px"></a>
-                <a href="https://github.com/10kaoru12"><img src="image/Github.png" style="margin: 0px 100px"></a>
-                <a href="https://gitlab.com/10kaoru12"><img src="image/Gitlab.png" style="margin: 0px 100px"></a>
-
+                <a href="https://twitter.com/10kaoru12"><img src="image/Twitter.jpg" style="margin: 0 100px" alt="twitter"></a>
+                <a href="https://www.facebook.com/kaoru.ishizawa.90"><img src="image/Facebook.png" style="margin: 0 100px" alt="facebook"></a>
+                <a href="https://qiita.com/10kaoru12"><img src="image/Qiita.png" style="margin: 0 100px" alt="qiita"></a>
+                <a href="http://amzn.asia/ikCOY58"><img src="image/Amazon.jpg" style="margin: 0 100px" alt="amazon"></a>
+                <a href="https://github.com/10kaoru12"><img src="image/Github.png" style="margin: 0 100px" alt="github"></a>
+                <a href="https://gitlab.com/10kaoru12"><img src="image/Gitlab.png" style="margin: 0 100px" alt="gitlab"></a>
             </p>
         </section>
         <footer>
             <small>
-                Copyright © 2018 Kaoru Ishizawa All Rights Reserved.
+                Copyright © 2018-2019 Kaoru Ishizawa All Rights Reserved.
             </small>
         </footer>
+	<script>
+        let viewer = new Viewer(document.getElementById('images'));
+	</script>
     <script type="text/javascript">
         $("#fakeloader").fakeLoader({
             timeToHide: 1200,

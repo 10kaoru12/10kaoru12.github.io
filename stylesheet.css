@@ -1,12 +1,12 @@
 *
 {
-    font-family: "Montserrat";
+    font-family: "Montserrat", monospace;
     line-height: 180%;
     background-color: #F4F5F7;
     color: #444444;
 }
 
-/*nav
+/*na
 {
     padding: 20px;
     word-spacing: 10px;
@@ -16,6 +16,7 @@
 
 img.avatar
 {
+    padding: 50px;
     border-radius: 100%;
     width: 500px ; height: 500px
 }
@@ -47,14 +48,14 @@ p
 
 h1
 {
-    font-family: "Montserrat";
+    font-family: "Montserrat", fantasy;
     font-size: 50px;
     line-height: 200%;
 }
 
 h2
 {
-    font-family: "Rockwell";
+    font-family: "Rockwell", fantasy;
     font-size: 30px;
     text-align: center;
     line-height: 300%;
@@ -65,8 +66,12 @@ img
     text-align: center;
     width: 100px ; height: 100px
 }
-
 footer
 {
     text-align: center;
+}
+img.library{
+    width: 150px;
+    height: 150px;
+    padding: 30px;
 }

@@ -1,0 +1,7 @@
+{
+  "name": "10kaoru12.github.io",
+  "version": "1.0.0",
+  "dependencies": {
+    "fakeloader": "^1.0.0"
+  }
+}
