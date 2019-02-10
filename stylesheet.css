@@ -1,6 +1,5 @@
-*
-{
-    font-family: "Montserrat";
+* {
+    /*font-family: "Montserrat";*/
     line-height: 180%;
     background-color: #F4F5F7;
     color: #444444;
@@ -14,63 +13,59 @@
     text-align: right;
 }*/
 
-img.avatar
-{
+img.avatar {
     padding: 50px;
     border-radius: 100%;
-    width: 500px ; height: 500px
+    width: 500px;
+    height: 500px
 }
 
-main
-{
+main {
+    font-family: "Montserrat",fantasy;
     text-align: center;
 }
 
-p.programming,p.activity
-{
+p.programming, p.activity {
     text-align: left;
     margin-right: 150px;
     margin-left: 150px;
 }
 
-p.education,p.about
-{
+p.education, p.about {
     text-align: right;
     margin-right: 150px;
     margin-left: 150px;
 }
 
-p
-{
+p {
+    font-family: "PT Mono", fantasy;
     font-size: large;
     text-align: center;
 }
 
-h1
-{
-    font-family: "Montserrat", fantasy;
+h1 {
     font-size: 50px;
     line-height: 200%;
 }
 
-h2
-{
+h2 {
     font-family: "Rockwell", fantasy;
     font-size: 30px;
     text-align: center;
     line-height: 300%;
 }
 
-img
-{
+img {
     text-align: center;
-    width: 100px ; height: 100px
+    width: 100px;
+    height: 100px
 }
-footer
-{
+
+footer {
     text-align: center;
 }
-img.library{
+
+img.library {
     width: 150px;
     height: 150px;
     padding: 30px;
