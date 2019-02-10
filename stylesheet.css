@@ -49,7 +49,6 @@ h1 {
 }
 
 h2 {
-    font-family: "Rockwell", fantasy;
     font-size: 30px;
     text-align: center;
     line-height: 300%;
@@ -62,6 +61,7 @@ img {
 }
 
 footer {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
 }
 
