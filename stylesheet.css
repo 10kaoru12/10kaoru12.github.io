@@ -25,30 +25,22 @@ main {
     text-align: center;
 }
 
-p.programming, p.work {
-    text-align: center;
-    margin-right: 150px;
-    margin-left: 150px;
-}
-
-p.education, p.aboutp, .activity {
-    text-align: center;
-    margin-right: 150px;
-    margin-left: 150px;
-}
-
 p {
     font-family: "Helvetica", fantasy;
     font-size: large;
     text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 h1 {
+    font-family: "Hiragino Kaku Gothic Pro", sans-serif;
     font-size: 50px;
     line-height: 200%;
 }
 
 h2 {
+    font-family: "Hiragino Kaku Gothic Pro", sans-serif;
     font-size: 30px;
     text-align: center;
     line-height: 300%;
