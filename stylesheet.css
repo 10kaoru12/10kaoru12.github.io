@@ -21,24 +21,24 @@ img.avatar {
 }
 
 main {
-    font-family: "Montserrat",fantasy;
+    font-family: "Helvetica", fantasy;
     text-align: center;
 }
 
-p.programming, p.activity {
-    text-align: left;
+p.programming, p.work {
+    text-align: center;
     margin-right: 150px;
     margin-left: 150px;
 }
 
-p.education, p.about {
-    text-align: right;
+p.education, p.aboutp, .activity {
+    text-align: center;
     margin-right: 150px;
     margin-left: 150px;
 }
 
 p {
-    font-family: "PT Mono", fantasy;
+    font-family: "Helvetica", fantasy;
     font-size: large;
     text-align: center;
 }
