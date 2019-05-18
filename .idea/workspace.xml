@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81c80612-6693-4edf-83f6-7b173d55cf0d" name="Default" comment="内容の微調整">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/script.js" />
+        <option value="$PROJECT_DIR$/stylesheet.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="10kaoru12.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10kaoru12.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Erlang External Tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image" />
+      <recent name="$PROJECT_DIR$/library" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81c80612-6693-4edf-83f6-7b173d55cf0d" name="Default" comment="" />
+      <created>1534776594727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534776594727</updated>
+      <workItem from="1534776596747" duration="1122000" />
+      <workItem from="1537431558585" duration="480000" />
+      <workItem from="1543987201582" duration="2560000" />
+      <workItem from="1544171091710" duration="197000" />
+      <workItem from="1544171595439" duration="302000" />
+      <workItem from="1544269985299" duration="23000" />
+      <workItem from="1545192804249" duration="8456000" />
+      <workItem from="1545203207593" duration="1119000" />
+      <workItem from="1547308516084" duration="265000" />
+      <workItem from="1547484816443" duration="285000" />
+      <workItem from="1547738863987" duration="113000" />
+      <workItem from="1549812065469" duration="1191000" />
+      <workItem from="1550155492064" duration="221000" />
+      <workItem from="1550313670006" duration="344000" />
+      <workItem from="1550499160069" duration="3298000" />
+      <workItem from="1550556941109" duration="145000" />
+      <workItem from="1551175829856" duration="50000" />
+      <workItem from="1551176259667" duration="135000" />
+      <workItem from="1551672220296" duration="587000" />
+      <workItem from="1551866744045" duration="238000" />
+      <workItem from="1552405790234" duration="288000" />
+      <workItem from="1553525022960" duration="305000" />
+    </task>
+    <task id="LOCAL-00001" summary="qiita,amazon,gitlab追加">
+      <created>1534777517190</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534777517190</updated>
+    </task>
+    <task id="LOCAL-00002" summary="qiita,amazon,gitlab追加">
+      <created>1534777663804</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534777663804</updated>
+    </task>
+    <task id="LOCAL-00003" summary="twitterアイコン高解像度化">
+      <created>1534777978093</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534777978093</updated>
+    </task>
+    <task id="LOCAL-00004" summary="twitterアイコン高解像度化&#10;フォントの変更">
+      <created>1543987906146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543987906146</updated>
+    </task>
+    <task id="LOCAL-00005" summary="内容の変更">
+      <created>1543989574956</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543989574957</updated>
+    </task>
+    <task id="LOCAL-00006" summary="内容の変更">
+      <created>1543990006713</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543990006713</updated>
+    </task>
+    <task id="LOCAL-00007" summary="フォントの変更">
+      <created>1544171279341</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544171279341</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fakeloadingを追加">
+      <created>1545195943337</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1545195943337</updated>
+    </task>
+    <task id="LOCAL-00009" summary="libraryの追加">
+      <created>1545202950457</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1545202950457</updated>
+    </task>
+    <task id="LOCAL-00010" summary="画像イメージをsvgに変換">
+      <created>1545204367121</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1545204367121</updated>
+    </task>
+    <task id="LOCAL-00011" summary="クリックしてね">
+      <created>1545204610025</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1545204610025</updated>
+    </task>
+    <task id="LOCAL-00012" summary="スペルミス改修と内容の追加">
+      <created>1547308691851</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1547308691851</updated>
+    </task>
+    <task id="LOCAL-00013" summary="内容の追加">
+      <created>1547485072876</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1547485072876</updated>
+    </task>
+    <task id="LOCAL-00014" summary="内容の追加">
+      <created>1547738961737</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1547738961738</updated>
+    </task>
+    <task id="LOCAL-00015" summary="内容の追加">
+      <created>1549812535456</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1549812535457</updated>
+    </task>
+    <task id="LOCAL-00016" summary="内容の追加">
+      <created>1549812904721</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1549812904721</updated>
+    </task>
+    <task id="LOCAL-00017" summary="内容の追加">
+      <created>1550501204103</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1550501204103</updated>
+    </task>
+    <task id="LOCAL-00018" summary="内容の追加">
+      <created>1550502800681</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1550502800682</updated>
+    </task>
+    <task id="LOCAL-00019" summary="内容の追加">
+      <created>1550557017023</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1550557017023</updated>
+    </task>
+    <task id="LOCAL-00020" summary="内容の追加">
+      <created>1551176383165</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1551176383165</updated>
+    </task>
+    <task id="LOCAL-00021" summary="内容の追加">
+      <created>1551672633848</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1551672633848</updated>
+    </task>
+    <task id="LOCAL-00022" summary="内容の追加">
+      <created>1551866964993</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1551866964993</updated>
+    </task>
+    <task id="LOCAL-00023" summary="内容の微調整">
+      <created>1552406063213</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1552406063213</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21724000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24876674" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3828892" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="qiita,amazon,gitlab追加" />
+    <MESSAGE value="twitterアイコン高解像度化" />
+    <MESSAGE value="twitterアイコン高解像度化&#10;フォントの変更" />
+    <MESSAGE value="内容の変更" />
+    <MESSAGE value="フォントの変更" />
+    <MESSAGE value="fakeloadingを追加" />
+    <MESSAGE value="libraryの追加" />
+    <MESSAGE value="画像イメージをsvgに変換" />
+    <MESSAGE value="クリックしてね" />
+    <MESSAGE value="スペルミス改修と内容の追加" />
+    <MESSAGE value="内容の追加" />
+    <MESSAGE value="内容の微調整" />
+    <option name="LAST_COMMIT_MESSAGE" value="内容の微調整" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Qiita.png" />
+    <entry file="file://$PROJECT_DIR$/image/Gitlab.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/Amazon.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/Github.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/avatar.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/fakeloader/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/README.md" />
+    <entry file="file://$PROJECT_DIR$/image/amazon-brands.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/question-solid.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
